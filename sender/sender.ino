@@ -1,4 +1,4 @@
-//SLAVE RECEIVER
+//SLAVE SENDER
 //Program for Arduino 1
 
 #include <Wire.h>
@@ -12,5 +12,5 @@ void loop(){
 }
 
 void requestEvent(){
-  Write.write("hello ");
+  Wire.write("hello ");
 }
